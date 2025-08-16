@@ -361,3 +361,68 @@
   font-size: 12px;
   color: #8e92a4;
 }
+
+@media (max-width: 768px) {
+  .checkout-container {
+    flex-direction: column;
+    padding: 20px;
+  }
+  .checkout-left {
+    padding: 0px;
+    width: 100%;
+  }
+  .checkout-right {
+    width: 100%;
+  }
+  .form-row {
+    flex-direction: column;
+  }
+  .rental-info {
+    margin-left: 20px;
+    width: 350px;
+  }
+
+  .grid {
+    display: flex;
+    width: 320px;
+    margin-left: -50px;
+    flex-direction: column;
+  }
+  .radio-label {
+    margin-left: -50px;
+  }
+  .select-box {
+    width: 90%;
+  }
+  .payment-method,
+  .confirmation-box {
+    max-width: 100%;
+    width: 90%;
+    margin-left: 20px;
+    padding: 20px;
+  }
+
+  .method-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    margin-left: 30px;
+  }
+
+  .responsive-grid {
+    grid-template-columns: 1fr !important;
+    margin-left: -15px;
+    width: 290px;
+  }
+
+  .confirmation-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .security-info {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}

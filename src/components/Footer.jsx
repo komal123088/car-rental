@@ -44,7 +44,7 @@ const Footer = () => {
       </div>
 
       <div className="footer-bottom">
-        <p>©2025 Creative Babar team. All rights reserved</p>
+        <p>©2025 by komal with Creative Babar team. All rights reserved</p>
         <div className="footer-policy">
           <span>Privacy & Policy</span>
           <span>Terms & Condition</span>

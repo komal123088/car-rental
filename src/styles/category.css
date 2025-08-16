@@ -233,3 +233,18 @@
   border-radius: 6px;
   cursor: pointer;
 }
+
+@media (max-width: 768px) {
+  .toggle-btn {
+    top: 8%;
+    right: 0;
+  }
+
+  .content {
+    padding: 30px 10px;
+  }
+  .card-grid1 {
+    padding: 20px;
+    margin-left: 20px;
+  }
+}

@@ -201,3 +201,20 @@
   border-radius: 8px;
   cursor: pointer;
 }
+
+@media (max-width: 768px) {
+  .car-detail-page {
+    padding: 20px;
+  }
+  .car-detail-container {
+    flex-wrap: wrap;
+  }
+  .left-panel-detail {
+    width: 100%;
+  }
+
+  .thumb {
+    width: 33%;
+    height: 70px;
+  }
+}

@@ -1,13 +1,12 @@
 import "../styles/category.css";
 import "../styles/detail.css";
-import { FaStar, FaRegStar } from "react-icons/fa";
+import { FaStar } from "react-icons/fa";
 import { useParams, Link } from "react-router-dom";
 import carData from "../carData";
 import view1 from "../assets/image/view1.png";
 import view2 from "../assets/image/view2.png";
 import view3 from "../assets/image/view3.png";
-// import user1 from "../assets/image/user.png";
-// import user2 from "../assets/image/profile.png";
+
 import { useState } from "react";
 function CarDetail() {
   const { id } = useParams();

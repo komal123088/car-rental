@@ -120,3 +120,38 @@
   cursor: pointer;
   box-shadow: 0 4px 12px rgba(63, 94, 251, 0.3);
 }
+
+@media (max-width: 768px) {
+  .section {
+    padding: 20px;
+  }
+  .header {
+    flex-wrap: wrap;
+    gap: 10px;
+    font-size: 11px;
+  }
+
+  .box {
+    width: 100%;
+    max-width: 370px;
+    height: 250px;
+    padding: 10px;
+  }
+
+  .header-text {
+    width: 100%;
+  }
+
+  .header-image {
+    width: 90%;
+    margin-left: 0;
+
+    margin-top: 20px;
+  }
+  .header-image img {
+    width: 100%;
+  }
+  .booking-container {
+    flex-direction: column;
+  }
+}

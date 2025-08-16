@@ -115,3 +115,15 @@
   border: 1px solid #3a5ef2;
   color: #3a5ef2;
 }
+
+@media (max-width: 768px) {
+  .heading {
+    padding: 10px;
+  }
+  .car-card {
+    width: 100%;
+  }
+  .btn1 {
+    margin-left: 120px;
+  }
+}

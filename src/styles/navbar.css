@@ -43,7 +43,6 @@
 
 .icon {
   color: #596780;
-
   font-size: 18px;
   cursor: pointer;
   transition: 0.2s;
@@ -59,4 +58,39 @@
   border-radius: 50%;
   object-fit: cover;
   cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .topbar {
+    padding: 10px 15px;
+  }
+
+  .logo {
+    font-size: 18px;
+  }
+
+  .search-bar {
+    width: 200px;
+    margin-top: -8px;
+    padding: 4px 8px;
+    overflow: hidden;
+  }
+
+  .search-bar input {
+    font-size: 10px;
+  }
+
+  .topbar-right {
+    gap: 10px;
+  }
+
+  .icon {
+    font-size: 12px;
+    display: none;
+  }
+
+  .profile-img {
+    width: 30px;
+    height: 30px;
+  }
 }

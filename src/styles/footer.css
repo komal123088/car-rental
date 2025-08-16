@@ -16,6 +16,7 @@
 
 .footer-brand {
   max-width: 300px;
+  margin-bottom: 20px;
 }
 
 .logo {
@@ -28,6 +29,7 @@
 .footer-links {
   display: flex;
   gap: 60px;
+  flex-wrap: wrap;
 }
 
 .footer-links h4 {
@@ -57,6 +59,7 @@
   border-top: 1px solid #eee;
   padding-top: 20px;
   flex-wrap: wrap;
+  gap: 15px;
 }
 
 .footer-policy {
@@ -64,4 +67,26 @@
   gap: 30px;
   color: #111;
   font-weight: 500;
+}
+
+@media (max-width: 768px) {
+  .footer {
+    padding: 30px 20px;
+  }
+
+  .footer-links {
+    gap: 30px;
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+  }
+
+  .footer-policy {
+    gap: 15px;
+  }
 }

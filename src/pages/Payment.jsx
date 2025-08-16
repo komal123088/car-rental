@@ -185,7 +185,7 @@ const Checkout = () => {
               <img src={visa} />
             </div>
           </div>
-          <div className="grid">
+          <div className="grid responsive-grid">
             <div className="field">
               <p className="label">Card Number</p>
               <input type="text" className="input" placeholder="Card number" />
