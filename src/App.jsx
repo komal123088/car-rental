@@ -9,7 +9,7 @@ import Checkout from "./pages/Payment";
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/car-rental">
       <Routes>
         <Route element={<Layout />}>
           <Route path="/" element={<Home />} />
