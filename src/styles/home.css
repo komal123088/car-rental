@@ -1,0 +1,122 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.box {
+  padding: 10px 20px;
+  height: 300px;
+  width: 570px;
+  display: flex;
+  flex-direction: column;
+  background-image: url(../assets/image/Ads2.png);
+  background-position: center;
+  border-radius: 20px;
+}
+.box1 {
+  background-image: url(../assets//image/Ads1.png);
+  background-position: center;
+}
+.header-text {
+  height: 50%;
+  width: 60%;
+  color: #fff;
+}
+.header-text p {
+  margin-top: 20px;
+}
+.header-text button {
+  padding: 8px 16px;
+  background: #3563e9;
+  border: none;
+  color: #fff;
+  margin-top: 20px;
+  transition: all 0.5s ease-in-out;
+}
+.btn {
+  background: #54a6ff !important;
+}
+.btn:hover {
+  background: transparent !important;
+  border: 1px solid #fff;
+}
+.header-text button:hover {
+  background: transparent;
+  border: 1px solid #fff;
+}
+.header-image {
+  height: 50%;
+  width: 70%;
+  margin-left: 80px;
+}
+.header-image img {
+  margin-top: 20px;
+}
+.car2 {
+  margin-left: 20px;
+}
+
+.booking-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  background-color: #f5f7fa;
+  border-radius: 12px;
+}
+
+.form-section {
+  background-color: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  width: 100%;
+}
+
+.form-section h4 {
+  margin-bottom: 15px;
+  font-weight: 500;
+  color: #333;
+}
+
+.form-group {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.form-item {
+  display: flex;
+  flex-direction: column;
+  min-width: 120px;
+}
+
+.form-item label {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 5px;
+}
+
+.form-item select {
+  padding: 8px 10px;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+  font-size: 14px;
+  background-color: #fff;
+  color: #000;
+}
+
+.swap-button {
+  background-color: #3f5efb;
+  color: white;
+  font-size: 18px;
+  padding: 14px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  box-shadow: 0 4px 12px rgba(63, 94, 251, 0.3);
+}
