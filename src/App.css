@@ -26,6 +26,8 @@ body {
 
 .section {
   padding: 18px 40px;
+  max-width: 1240px;
+  margin: 0 auto;
 }
 button {
   cursor: pointer;

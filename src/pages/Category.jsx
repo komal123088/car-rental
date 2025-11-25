@@ -17,7 +17,7 @@ const Category = () => {
     setSidebarVisible(!sidebarVisible);
   };
   return (
-    <div className="car-listing">
+    <div className="car-listing section">
       <button className="toggle-btn" onClick={toggleSidebar}>
         {sidebarVisible ? "Hide SideBar" : "Show SideBar"}
       </button>

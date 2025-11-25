@@ -71,7 +71,7 @@ function CarDetail() {
           <div className="price-bar"></div>
         </div>
       </aside>
-      <div className="car-detail-page">
+      <div className="car-detail-page section">
         <div className="car-detail-container">
           <div className="left-panel">
             <div className="left-panel-detail">

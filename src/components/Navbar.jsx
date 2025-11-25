@@ -8,7 +8,9 @@ function Navbar() {
   return (
     <nav className="topbar">
       <div className="topbar-left">
-        <h2 className="logo">CarRent</h2>
+        <Link to={"/"} style={{ textDecoration: "none" }}>
+          <h2 className="logo">CarRent</h2>
+        </Link>
       </div>
 
       <div className="topbar-center">
